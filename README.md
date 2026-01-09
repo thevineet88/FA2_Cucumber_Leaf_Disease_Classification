@@ -1,7 +1,7 @@
 # FA2 — Cucumber Leaf Disease Classification (Deep Learning)
 
-**Student:** [Your Name]  
-**PRN:** [Your PRN]  
+**Student:** Vinit Suresh Brahmankar
+**PRN:** 125M1K016 
 
 ## Project Overview
 
