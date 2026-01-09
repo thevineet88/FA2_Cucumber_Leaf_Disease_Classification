@@ -1,0 +1,40 @@
+================================================================================
+Layer (type)                    Output Shape                 Param #   
+================================================================================
+input_1 (InputLayer)           (None, 224, 224, 3)          0         
+tf.math.truediv (TFOpLambda)   (None, 224, 224, 3)          0         
+resnet50 (Functional)          (None, 7, 7, 2048)           23587712  
+global_average_pooling2d       (None, 2048)                 0         
+dense (Dense)                  (None, 512)                  1049088   
+batch_normalization           (None, 512)                  2048      
+dropout (Dropout)              (None, 512)                  0         
+dense_1 (Dense)                (None, 256)                  131328    
+batch_normalization_1         (None, 256)                  1024      
+dropout_1 (Dropout)            (None, 256)                  0         
+dense_2 (Dense)                (None, 3)                    771       
+================================================================================
+Total params: 24,771,971
+Trainable params: 24,770,435
+Non-trainable params: 1,536
+================================================================================
+
+Model: "model"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         [(None, 224, 224, 3)]    0         
+tf.math.truediv (TFOpLambda) (None, 224, 224, 3)      0         
+resnet50 (Functional)        (None, 7, 7, 2048)       23587712  
+global_average_pooling2d (Gl (None, 7, 7, 2048)       0         
+dense (Dense)                (None, 512)              1049088   
+batch_normalization (Batch N (None, 512)              2048      
+dropout (Dropout)            (None, 512)              0         
+dense_1 (Dense)              (None, 256)              131328    
+batch_normalization_1 (Batch (None, 256)              1024      
+dropout_1 (Dropout)          (None, 256)              0         
+dense_2 (Dense)              (None, 3)                771       
+=================================================================
+Total params: 24,771,971
+Trainable params: 24,770,435
+Non-trainable params: 1,536
+_________________________________________________________________

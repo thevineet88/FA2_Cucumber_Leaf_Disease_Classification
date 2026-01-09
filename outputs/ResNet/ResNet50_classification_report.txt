@@ -1,0 +1,13 @@
+ResNet50 Classification Report
+==================================================
+Test Accuracy: 0.9678
+
+              precision    recall  f1-score   support
+
+  Downy Mildew       0.97      0.96      0.96       150
+      Healthy       0.97      0.98      0.97       155
+Powdery Mildew       0.96      0.97      0.96       145
+
+    accuracy                           0.97       450
+   macro avg       0.97      0.97      0.97       450
+weighted avg       0.97      0.97      0.97       450

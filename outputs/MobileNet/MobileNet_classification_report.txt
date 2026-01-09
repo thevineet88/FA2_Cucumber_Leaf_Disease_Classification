@@ -1,0 +1,13 @@
+MobileNetV2 Classification Report
+==================================================
+Test Accuracy: 0.9400
+
+              precision    recall  f1-score   support
+
+  Downy Mildew       0.93      0.95      0.94       150
+      Healthy       0.95      0.94      0.94       155
+Powdery Mildew       0.94      0.93      0.93       145
+
+    accuracy                           0.94       450
+   macro avg       0.94      0.94      0.94       450
+weighted avg       0.94      0.94      0.94       450
